@@ -131,5 +131,5 @@ textarea{
 
 button.primary{
     background-color: #F5385D;
-    @apply bg-primarycolor p-2 w-full text-white rounded-2xl;
+    @apply bg-secondarycolor p-2 w-full text-white rounded-2xl;
 }

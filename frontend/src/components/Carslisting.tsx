@@ -36,9 +36,9 @@ function Carslisting() {
        <div className="searchPage__info">
    
 
-   <button className={`border rounded-xl p-2  text-white hover:bg-primarycolor ${recommended? 'bg-primarycolor' : 'bg-secondarycolor'}`} onClick={handleClickRecommended} >Recommended</button>
-   <button className={`border rounded-xl p-2  text-white hover:bg-primarycolor ${highRated? 'bg-primarycolor' : 'bg-secondarycolor'}`} onClick={handleClickHighRated}>High rated</button>
-   <button className={`border rounded-xl p-2  text-white hover:bg-primarycolor ${lowPrice? 'bg-primarycolor' : 'bg-secondarycolor'}`}onClick={handleClickLowPrice}>Low Price</button>
+   <button className={`border rounded-xl p-2  hover:text-white hover:bg-secondarycolor ${recommended? 'bg-secondarycolor text-white' : 'bg-primarycolor'}`} onClick={handleClickRecommended} >Recommended</button>
+   <button className={`border rounded-xl p-2   hover:text-white hover:bg-secondarycolor ${highRated? 'bg-secondarycolor text-white' : 'bg-primarycolor'}`} onClick={handleClickHighRated}>High rated</button>
+   <button className={`border rounded-xl p-2   hover:text-white hover:bg-secondarycolor ${lowPrice? 'bg-secondarycolor text-white' : 'bg-primarycolor'}`}onClick={handleClickLowPrice}>Low Price</button>
 
  </div>
  <div onClick={handleClick}>

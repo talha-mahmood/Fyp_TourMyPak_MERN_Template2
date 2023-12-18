@@ -63,7 +63,7 @@ export default function BookingWidget() {
           </div>
         )}
       </div> */}
-      <button className="primary mt-4">
+      <button className="primary  mt-4">
         Book 
         {/* {numberOfNights > 0 && (
           <span>

@@ -96,6 +96,7 @@ import FallIntoTravel from "./FallIntoTravel";
 // import MyFooter from "./MyFooter";
 import mainimage from '../../public/mountain.jpg'
 import AboutUs from "./AboutUs";
+import Services from "./Services";
 
 function Home() {
   return (
@@ -116,9 +117,9 @@ function Home() {
  
       </div>
      <div className="mx-2 md:ml-[70px]">
-      <AboutUs/>
-      <FallIntoTravel
-      heading={"Top Tour Packages"}
+     <FallIntoTravel
+      heading={"Top Rated Tour Packages"}
+      title={"Unforgettable Adventures"}
       details={"Book Tour"}
       description1={" Isb-Chitral"}
       description2={"Isb-Skardu"}
@@ -129,8 +130,10 @@ function Home() {
       i3={'/public/swat.jpg'}
       i4={'/public/Attabad.jpg'}
       />
+      <AboutUs/>
       <FallIntoTravel
-      heading={"Top Hotels"}
+      heading={"Top Rated Hotels"}
+      title={"Luxury Residences"}
       details={"Book Hotel"}
       description1={"Skardu Hotel"}
       description2={"Skardu Hotel"}
@@ -141,8 +144,12 @@ function Home() {
       i3={'/public/hotel.jpeg'}
       i4={'/public/hotel.jpeg'}
       />
+      <Services/>
+    
+      
       <FallIntoTravel
-      heading={"Top Car Bookings"}
+      heading={"Top Rated Car Rentals"}
+      title={"Drive with Excellence"}
       details={"Book Car"}
       description1={"Isb-Honda Civic"}
       description2={"Isb-Honda Civic"}
