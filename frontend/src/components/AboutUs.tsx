@@ -14,7 +14,7 @@ const AboutUs = () => {
       </div> */}
 
 
-<div className=" flex flex-col gap-y-[60px] md:gap-y-0 md:flex-row mt-20 justify-between  max-w-[320px] md:max-w-full">
+<div className=" flex flex-col gap-y-[60px] md:gap-y-0 md:flex-row mt-20 justify-between  max-w-screen-sm md:max-w-full ">
  
       
         <div className='flex flex-col items-start justify-center gap-[24px]'>
@@ -28,14 +28,15 @@ const AboutUs = () => {
             Understand to achieve anything requires faith and belief in
             yourself, vision, hard work, determination, and dedication.
           </div>
-          <div className="shrink-0 flex flex-row items-center justify-center gap-[24px] text-21xl">
+          <div className="shrink-0 flex flex-row items-center justify-center md:gap-[24px] gap-[20px] md:text-21xl text-[30px]">
             <div className="shrink-0 flex flex-col items-start justify-center">
               <b className="relative text-secondarycolor">2</b>
               <div className="relative text-base text-grey-1 inline-block md:w-[100px]">
-                Years of Experience
+                <p className="m-0 ">Years of</p>
+                <p className="m-0 ">Experience</p>
               </div>
             </div>
-            <div className="shrink-0 flex flex-col items-start justify-center">
+            <div className="shrink-0 flex flex-col  justify-center ">
               <b className="relative text-secondarycolor">100</b>
               <div className="relative text-base text-grey-1 inline-block md:w-[100px]">
                 <p className="m-0 ">Sucessful</p>

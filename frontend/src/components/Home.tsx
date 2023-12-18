@@ -95,6 +95,7 @@ import TravelForm from "./TravelForm";
 import FallIntoTravel from "./FallIntoTravel";
 // import MyFooter from "./MyFooter";
 import mainimage from '../../public/mountain.jpg'
+import AboutUs from "./AboutUs";
 
 function Home() {
   return (
@@ -114,8 +115,8 @@ function Home() {
       </div>
  
       </div>
-     
-  
+     <div className="mx-2">
+      <AboutUs/>
       <FallIntoTravel
       heading={"Top Tour Packages"}
       details={"Book Tour"}
@@ -152,8 +153,8 @@ function Home() {
       i3={'../../public/civic.jpg'}
       i4={'../../public/civic.jpg'}
       />
-    
-      {/* <MyFooter /> */}
+    </div>
+
  
       
     </div>
