@@ -115,7 +115,7 @@ function Home() {
       </div>
  
       </div>
-     <div className="mx-2">
+     <div className="mx-2 md:ml-[70px]">
       <AboutUs/>
       <FallIntoTravel
       heading={"Top Tour Packages"}
