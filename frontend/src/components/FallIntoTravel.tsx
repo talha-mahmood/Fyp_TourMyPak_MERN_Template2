@@ -17,7 +17,9 @@ const FallIntoTravel = ({
    
   // }
   return (
-    <div className=" mx-[70px]  mt-10">
+    <div>
+
+       <div className=" mx-[70px]  mt-10">
     <p className="h-9 self-stretch text-[40px] font-bold mb-7  ">{heading}</p>
 <div className="flex flex-col md:flex-row md:gap-x-10 gap-y-6 mt-[25px]">
 <div>
@@ -49,6 +51,8 @@ const FallIntoTravel = ({
 
 
   </div>
+    </div>
+   
   )
 }
 

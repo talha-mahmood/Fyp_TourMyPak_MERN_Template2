@@ -7,9 +7,9 @@ import twitter from "/public/twitter.svg";
 import youtube from "/public/youtube.svg";
 const MyFooter = () => {
   return (
-    <div className="bg-secondarycolor w-fit md:w-full ">
+    <div className="bg-primarycolor w-fit md:w-full ">
     <div className="mt-[240px] md:mx-[70px]">
-      <div className=" relative rounded-[20px] bg-primarycolor  min-w-[350px] -top-[160px] mx-2 md:mx-0   ">
+      <div className=" relative rounded-[20px] bg-secondarycolor  min-w-[350px] -top-[160px] mx-2 md:mx-0   ">
         <div className="md:ml-[24px] flex flex-row justify-between">
           <div>
             <p className="relative w-[100px] md:w-[364px]  text-[44px] leading-[54px] font-bold top-5 text-white  ">

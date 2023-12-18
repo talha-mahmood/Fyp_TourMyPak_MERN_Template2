@@ -3,20 +3,22 @@ import React from "react";
 import TravelForm from "./TravelForm";
 import FallIntoTravel from "./FallIntoTravel";
 // import MyFooter from "./MyFooter";
-import mainimage from '../../public/main5.jpg'
+import mainimage from '../../public/mountain.jpg'
 
 function Home() {
   return (
    
  
     <div className="">
-      {/* <Header/> */}
+  
      <div className="">
         <div className=" ">
+        <p className='absolute top-[150px] font-bold z-10 mx-[400px] text-4xl text-white  '>Trips, Hotels, Rentals & more.<br></br>
+Your Trip Starts Here</p>
          <img src={mainimage} alt="Heroposter" className=" w-full h-[600px] object-cover"/>
          </div>
      
-      <div className=" absolute top-[200px] ">
+      <div className=" absolute top-[250px] ">
         <TravelForm />
       </div>
  

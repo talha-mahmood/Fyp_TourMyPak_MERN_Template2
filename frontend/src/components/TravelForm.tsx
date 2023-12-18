@@ -49,7 +49,7 @@ const TravelForm :FC<{data?:any}>= ({data}) => {
     <div>
 
     <div  className='border border-gray-300 rounded-lg p-2   shadow-2xl shadow-zinc-950  bg-zinc
- md:mx-[50px]  lg:mx-[100px]  xl:mx-[160px]   bg-secondarycolor opacity-90'>
+ md:mx-[50px]  lg:mx-[100px]  xl:mx-[160px]   bg-primarycolor '>
     
 
 
@@ -58,8 +58,8 @@ const TravelForm :FC<{data?:any}>= ({data}) => {
       
       <button
   className={`  mr-5 font-bold text-[19px] flex  ${
-    tourPackage ? 'text-primarycolor ' : 'text-white'
-  } hover:text-primarycolor `}
+    tourPackage ? 'text-secondarycolor ' : ''
+  } hover:text-secondarycolor `}
   onClick={handleClickTourPackage}
 >
   {/* <FlightTakeoff /> */}
@@ -68,8 +68,8 @@ const TravelForm :FC<{data?:any}>= ({data}) => {
 </button>
 <button
   className={`mr-5 font-bold text-lg text-[21px] flex   ${
-    showHotels ? 'text-primarycolor ' : 'text-white'
-  } hover:text-primarycolor `}
+    showHotels ? 'text-secondarycolor ' : ''
+  } hover:text-secondarycolor `}
   onClick={handleClickHotels}
 >
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-bed mt-1 mr-1"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg>
@@ -77,8 +77,8 @@ const TravelForm :FC<{data?:any}>= ({data}) => {
 </button>
 <button
   className={`mr-5 font-bold text-lg text-[21px] flex   ${
-    showCars ? 'text-primarycolor ' : 'text-white'
-  } hover:text-primarycolor `}
+    showCars ? 'text-secondarycolor ' : ''
+  } hover:text-secondarycolor `}
   onClick={handleClickCars}
 >
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-car-taxi-front mt-1 mr-1"><path d="M10 2h4"/><path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/><path d="M7 14h.01"/><path d="M17 14h.01"/><rect width="18" height="8" x="3" y="10" rx="2"/><path d="M5 18v2"/><path d="M19 18v2"/></svg>

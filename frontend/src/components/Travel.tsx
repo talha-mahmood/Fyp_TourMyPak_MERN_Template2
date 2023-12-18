@@ -35,7 +35,7 @@ const Travel: FC<{ data?: any }> = ({ data }) => {
     <div className="p-2 px-5 bg-primarycolor">
       <div className="flex flex-row">
         <button
-          className={`  text-white px-3 py-2 mb-2 rounded-xl border-gray-600  shadow-lg text-lg font-medium hover:shadow-lg hover:scale-105 duration-300  ${
+          className={`   px-3 py-2 mb-2 rounded-xl border-gray-600  shadow-lg text-lg font-medium hover:shadow-lg hover:scale-105 duration-300  ${
             travelOption === "oneway" ? "bg-secondarycolor text-white" : ""
           }`}
           onClick={() => handleSelectOption("oneway")}
@@ -43,7 +43,7 @@ const Travel: FC<{ data?: any }> = ({ data }) => {
           One way
         </button>
         <button
-          className={`text-white px-3 py-2 mb-2 rounded-xl shadow-lg text-lg font-medium hover:shadow-lg hover:scale-105 duration-300 ${
+          className={` px-3 py-2 mb-2 rounded-xl shadow-lg text-lg font-medium hover:shadow-lg hover:scale-105 duration-300 ${
             travelOption === "roundtrip" ? "bg-secondarycolor text-white" : ""
           }`}
           onClick={() => handleSelectOption("roundtrip")}
@@ -51,7 +51,7 @@ const Travel: FC<{ data?: any }> = ({ data }) => {
           Round Trip
         </button>
         <button
-          className={`text-white px-3 py-2 mb-2 rounded-xl shadow-lg text-lg font-medium hover:shadow-lg hover:scale-105 duration-300 ${
+          className={` px-3 py-2 mb-2 rounded-xl shadow-lg text-lg font-medium hover:shadow-lg hover:scale-105 duration-300 ${
             travelOption === "multicity" ? "bg-secondarycolor text-white" : ""
           }`}
           onClick={() => handleSelectOption("multicity")}

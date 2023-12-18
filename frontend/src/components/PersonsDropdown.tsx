@@ -156,7 +156,7 @@ const PersonsDropdown: FC<{data?:any }> = ({data}) => {
             getPopupContainer={(trigger:any) => trigger.parentNode} // Add this line to set the popup container
         >
             <a onClick={(e) => e.preventDefault()}>
-                <Space className="text-white bg-secondarycolor  hover:bg-tertiarycolor focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-2 py-1.5 text-center inline-flex items-center  mb-2" >
+                <Space className="text-white bg-secondarycolor focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-2 py-1.5 text-center inline-flex items-center  mb-2" >
                     {`${travelers}Persons`}
                     <DownOutlined />
                 </Space>
