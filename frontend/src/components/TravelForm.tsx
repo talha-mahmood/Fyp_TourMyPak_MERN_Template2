@@ -48,8 +48,8 @@ const TravelForm :FC<{data?:any}>= ({data}) => {
   return (
     <div>
 
-    <div  className='border border-gray-300 rounded-lg p-2   shadow-2xl shadow-zinc-950  bg-zinc
- md:mx-[50px]  lg:mx-[100px]  xl:mx-[160px]   bg-primarycolor '>
+    <div  className='border border-gray-300 rounded-lg p-2 shadow-2xl shadow-zinc-950  bg-zinc  md:mx-[50px]  lg:mx-[100px]  xl:mx-[160px] 
+  bg-primarycolor '>
     
 
 
