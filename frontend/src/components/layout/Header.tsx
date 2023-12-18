@@ -22,14 +22,12 @@ const Header = () => {
   const userString = localStorage.getItem("user");
   const user = userString ? JSON.parse(userString) : null;
   return (
-    <header className="sticky top-0 z-10 bg-white w-full ">
+    <header className=" sticky top-0 z-10 bg-white w-full ">
       <div className="bg-white">
         <div className="flex justify-between mx-auto py-0 mr-2 ml-2">
           <div className="mt-6 ">
             <Link to={'/'} className="flex items-center gap-1">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 -rotate-90">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-              </svg>
+             
               <span className="font-bold text-xl">TourMyPak</span>
             </Link>
           </div>
@@ -38,7 +36,7 @@ const Header = () => {
           </div>
 
           <nav className="hidden md:flex space-x-8 font-semibold my-6 ">
-            <div className='flex mr-8 -mt-1'>
+            <div className='flex mr-8 mt-1'>
               {/* <img src={profileicon} alt='profileicon' className='h-[45px] w-[45px] rounded-full'/> */}
               {/* <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6b3729" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0" /><circle cx="12" cy="10" r="4" /><circle cx="12" cy="12" r="10" /></svg>
               <p className='mt-2 ml-1'>Talha</p> */}
@@ -59,27 +57,26 @@ const Header = () => {
               <Link to='/image-upload'className='mt-1' >
                 Image Upload
               </Link> */}
-              <Link to='/travelguidelisting' className='mt-2 '>
+              <Link to='/travelguidelisting'>
                 Book Travel Guide
 
               </Link>
-               <Link to='/' className='flex gap-1'>
-               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6b3729" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0" /><circle cx="12" cy="10" r="4" /><circle cx="12" cy="12" r="10" /></svg>
+               <Link to='/'>
 
-               <span className='mt-1'>  {"( " +user ? user.name : '' + " )"} </span>
+               <span >  {"( " +user ? user.name : '' + " )"} </span>
                </Link>
-              <Link to="/signup"className='mt-1 flex' onClick={() => logout()}>
+              <Link to="/signup" onClick={() => logout()}>
             
 
                <span> Logout  </span></Link>
               
-            </> : <><Link to='/login'className='mt-1 ' >
+            </> : <><Link to='/login' >
 
             <span className='mt-1'> Login</span>
             </Link>
-              <Link to='/signup'className='mt-1 ' >
+              <Link to='/signup' >
 
-              <span className='mt-1'> Signup</span>
+              <span > Signup</span>
               </Link></>}
 
 
@@ -103,7 +100,6 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden bg-white py-4 px-8 space-y-4 absolute top-20 left-[100px] right-0 shadow-2xl rounded-xl justify-center">
             <div className="block px-4 py-2  hover:bg-secondarycolor rounded-md hover:text-white text-gray-800">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6b3729" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0" /><circle cx="12" cy="10" r="4" /><circle cx="12" cy="12" r="10" /></svg>
               <p className='mt-2 ml-1'>Talha</p>
             </div>
            

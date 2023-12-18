@@ -4,6 +4,8 @@ import TravelForm from "./TravelForm";
 import FallIntoTravel from "./FallIntoTravel";
 // import MyFooter from "./MyFooter";
 import mainimage from '../../public/mountain.jpg'
+import TourPackageInfo from "./TourPackageinfo";
+import AboutUs from "./AboutUs";
 
 function Home() {
   return (
@@ -12,7 +14,7 @@ function Home() {
     <div className="">
   
      <div className="">
-        <div className=" ">
+        <div className="w-full">
         <p className='absolute top-[150px] font-bold z-10 mx-[400px] text-4xl text-white  '>Trips, Hotels, Rentals & more.<br></br>
 Your Trip Starts Here</p>
          <img src={mainimage} alt="Heroposter" className=" w-full h-[600px] object-cover"/>
@@ -23,8 +25,9 @@ Your Trip Starts Here</p>
       </div>
  
       </div>
-     
-  
+      <div className="mx-[70px]">
+     <AboutUs/>
+      <TourPackageInfo/>
       <FallIntoTravel
       heading={"Top Tour Packages"}
       details={"Book Tour"}
@@ -62,9 +65,8 @@ Your Trip Starts Here</p>
       i4={'../../public/civic.jpg'}
       />
     
-      {/* <MyFooter /> */}
  
-      
+      </div>
     </div>
    
    

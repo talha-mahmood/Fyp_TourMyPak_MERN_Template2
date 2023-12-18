@@ -10,6 +10,17 @@ export default {
         "montserrat": "Montserrat",
         "tradegothic": "'TradeGothic LT Extended'",
         "manrope": "Manrope",
+        barlow: "Barlow",
+      },
+      borderRadius: {
+        "26xl": "45px",
+        "19xl": "38px",
+      },
+      fontSize: {
+        "3xs": "10px",
+        "29xl": "48px",
+        "7xl": "26px",
+        "21xl": "40px",
       },
       colors:{
         mediumaquamarine: "rgba(141, 211, 187, 0.4)",
@@ -22,12 +33,12 @@ export default {
         "orange-range-orange-90": "#ff7900",
         "blackish-green": "#112211",
         "primarycolor":"#ffffff",
-        "primarycolor3":"#003d2b",
-        "primarycolor2":"#0f766e",
         "secondarycolor":"#00401A",
-        "secondarycolor3":"#ade6b9",
-        "secondarycolor2":"#199171",
-        "tertiarycolor":"#612c1f",
+        "grey-1": "#808080",
+        "grey-2": "#fafafa",
+        goldenrod: "rgba(255, 189, 57, 0.12)",
+      
+
       },
     },
   },
